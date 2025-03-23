@@ -159,7 +159,7 @@ export default function TestimonialsSection() {
                         variant="outline"
                         size="icon"
                         onClick={prevTestimonial}
-                        className="border-gray-700 hover:bg-gray-800 text-white dark:border-gray-300 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300"
+                        className="border-gray-700 hover:bg-gray-800 dark:text-black text-black hover:text-white dark:border-gray-300 dark:bg-gray-200 dark:hover:bg-gray-300 "
                       >
                         <ChevronLeft className="h-4 w-4" />
                       </Button>
@@ -167,7 +167,7 @@ export default function TestimonialsSection() {
                         variant="outline"
                         size="icon"
                         onClick={nextTestimonial}
-                        className="border-gray-700 hover:bg-gray-800 text-white dark:border-gray-300 dark:bg-gray-200 dark:text-gray-900 dark:hover:bg-gray-300"
+                        className="border-gray-700 hover:bg-gray-800 dark:text-black text-black hover:text-white dark:border-gray-300 dark:bg-gray-200 dark:hover:bg-gray-300"
                       >
                         <ChevronRight className="h-4 w-4" />
                       </Button>
@@ -199,7 +199,7 @@ export default function TestimonialsSection() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-gray-700 hover:bg-gray-800 text-white dark:border-gray-400 dark:text-gray-900 dark:hover:bg-gray-200"
+                className="border-gray-700 text-black dark:text-white hover:bg-gray-800 dark:border-gray-400 dark:hover:bg-gray-200 hover:text-white dark:hover:text-black"
               >
                 READ CUSTOMER STORIES
               </Button>

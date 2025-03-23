@@ -40,7 +40,7 @@ export default function Home() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-gray-700 hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 dark:text-white"
+                  className="border-gray-700 text-black hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 dark:text-white"
                 >
                   BOOK A DEMO
                 </Button>
@@ -108,7 +108,7 @@ export default function Home() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-gray-700 hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 dark:text-white"
+                  className="border-gray-700 text-black dark:text-white hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 dark:text-white"
                 >
                   BOOK A DEMO
                 </Button>

@@ -86,7 +86,7 @@ export default function AppsSection() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-gray-700 hover:bg-gray-800 text-white dark:border-gray-400 dark:text-gray-900 dark:hover:bg-gray-200"
+                  className="border-gray-700 text-black dark:text-white hover:bg-gray-800 dark:border-gray-400 dark:hover:bg-gray-200"
                 >
                   VIEW DEMO
                 </Button>

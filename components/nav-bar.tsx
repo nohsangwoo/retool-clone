@@ -127,7 +127,7 @@ export default function NavBar() {
           </Button>
           <Button
             variant="outline"
-            className="border-gray-700 hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 dark:text-gray-900"
+            className="border-gray-700 text-black dark:text-white hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 "
           >
             BOOK A DEMO
           </Button>
@@ -196,7 +196,7 @@ export default function NavBar() {
           </Button>
           <Button
             variant="outline"
-            className="border-gray-700 hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 dark:text-gray-900"
+            className="border-gray-700 text-black hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 dark:text-gray-900"
           >
             BOOK A DEMO
           </Button>

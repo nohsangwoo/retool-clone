@@ -167,7 +167,7 @@ export default function Footer() {
               </Button>
               <Button
                 variant="outline"
-                className="w-full border-gray-700 hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 dark:text-gray-900"
+                className="w-full text-black dark:text-white hover:text-white dark:hover:text-black border-gray-700 hover:bg-gray-800 dark:border-gray-300 dark:hover:bg-gray-200 "
               >
                 BOOK A DEMO
               </Button>
