@@ -186,7 +186,7 @@ export default function WorkflowsSection() {
                 <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
                   START FOR FREE
                 </Button>
-                <Button size="lg" variant="outline" className="border-white hover:bg-blue-700">
+                <Button size="lg" variant="outline" className="bg-white text-blue-600 hover:bg-gray-100 dark:hover:text-black">
                   WATCH DEMO
                 </Button>
               </div>

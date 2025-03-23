@@ -173,7 +173,7 @@ export default function SolutionsMenu({ isOpen, onClose }: SolutionsMenuProps) {
                       <div className="flex-grow pr-10">
                         <h4
                           className={cn(
-                            "text-lg font-medium mb-1",
+                            "text-lg font-medium mb-1 text-gray-400 dark:text-gray-600",
                             hoveredItem === item.id && `${item.color.text} dark:${item.color.darkText}`,
                           )}
                         >
@@ -224,7 +224,7 @@ export default function SolutionsMenu({ isOpen, onClose }: SolutionsMenuProps) {
                   className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                   onClick={onClose}
                 >
-                  <h4 className="font-medium mb-1">Templates</h4>
+                  <h4 className="font-medium mb-1 text-gray-800 dark:text-gray-400">Templates</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Ready-to-use app templates for common use cases
                   </p>
@@ -234,7 +234,7 @@ export default function SolutionsMenu({ isOpen, onClose }: SolutionsMenuProps) {
                   className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                   onClick={onClose}
                 >
-                  <h4 className="font-medium mb-1">Utilities</h4>
+                  <h4 className="font-medium mb-1 text-gray-800 dark:text-gray-400">Utilities</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Helper functions and components to speed up development
                   </p>
@@ -244,7 +244,7 @@ export default function SolutionsMenu({ isOpen, onClose }: SolutionsMenuProps) {
                   className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                   onClick={onClose}
                 >
-                  <h4 className="font-medium mb-1">Case Studies</h4>
+                  <h4 className="font-medium mb-1 text-gray-800 dark:text-gray-400">Case Studies</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Real-world examples from our customers</p>
                 </Link>
                 <Link
@@ -252,7 +252,7 @@ export default function SolutionsMenu({ isOpen, onClose }: SolutionsMenuProps) {
                   className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                   onClick={onClose}
                 >
-                  <h4 className="font-medium mb-1">Tutorials</h4>
+                  <h4 className="font-medium mb-1 text-gray-800 dark:text-gray-400">Tutorials</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Step-by-step guides to build common applications
                   </p>
